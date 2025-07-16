@@ -9,7 +9,6 @@ import {
 } from "lucide-react";
 import styles from "./bookForm.module.css";
 import { Calendar } from "@/components/ui/calendar";
-import InputGroup from "@/components/InputGroup";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
@@ -30,6 +29,8 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
+import { eu, es } from "react-day-picker/locale";
+
 
 type Form = {
   name: string;
@@ -242,6 +243,10 @@ export default function BookForm() {
               mode="single"
               className={styles.calendar}
               selected={new Date()}
+              locale={eu}
+              disabled={{
+                before: new Date(),
+              }}
               onSelect={(e) => console.log(e)}
             />
           </FormFieldWrapper>
@@ -266,7 +271,7 @@ export default function BookForm() {
           <FormFieldWrapper
             control={form.control}
             name="day"
-            label="Fecha"
+            label="Notas"
             icon={<FileText />}
             required
             className={styles.descriptionField}
