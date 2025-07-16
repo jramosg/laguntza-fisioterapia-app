@@ -1,0 +1,15 @@
+{
+    "Booking": {
+        "Book Your Physiotheraphy Appointment": "Zure fisioterapia hitzordua erreserbatu",
+        "Book Now": "Orain erreserbatu",
+        "Book Appointment": "Hitzordua erreserbatu",
+        "Book Appointment Description": "Bete formularioa gure fisioterapeutarekin hitzordu bat erreserbatzeko.",
+        "Book Appointment Success": "Hitzordua ondo erreserbatu da!",
+        "Book Appointment Error": "Errorea hitzordua erreserbatzean. Mesedez, saiatu berriro geroago."
+    },
+    "HomePage": {
+        "Welcome to Our Physiotherapy Service": "Ongi etorri gure fisioterapia zerbitzura",
+        "Learn More": "Ikasi gehiago gure zerbitzuei buruz",
+        "Contact Us": "Jarri gurekin harremanetan informazio gehiagorako"
+    }
+}

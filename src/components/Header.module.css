@@ -18,12 +18,12 @@
   display: flex;
 }
 
-:global(.header-nav__container--scrolling-down) {
+.header:global(.header-nav__container--scrolling-down) {
     height: var(--s8);
     background-color: var(--theme-primary-container);
 }
 
-:global(.header-nav__container--scrolled) {
+.header:global(.header-nav__container--scrolled) {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-top: 0;
     opacity: 0.9;

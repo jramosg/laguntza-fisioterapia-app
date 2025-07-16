@@ -1,0 +1,15 @@
+{
+    "Booking": {
+        "Book Your Physiotheraphy Appointment": "Reserva tu cita de fisioterapia",
+        "Book Now": "Reserva ahora",
+        "Book Appointment": "Reservar cita",
+        "Book Appointment Description": "Completa el formulario para reservar una cita con nuestro fisioterapeuta.",
+        "Book Appointment Success": "¡Cita reservada con éxito!",
+        "Book Appointment Error": "Error al reservar la cita. Por favor, inténtalo de nuevo más tarde."
+    },
+    "HomePage": {
+        "Welcome to Our Physiotherapy Service": "Bienvenido a nuestro servicio de fisioterapia",
+        "Learn More": "Aprende más sobre nuestros servicios",
+        "Contact Us": "Contáctanos para más información"
+    }
+}
