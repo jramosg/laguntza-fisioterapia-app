@@ -3,10 +3,10 @@ import Container from "@/components/Container";
 import { Calendar } from "lucide-react";
 import BookForm from "./_components/BookForm";
 import { useTranslations } from "next-intl";
+import { Lang } from "@/types/lang";
 
-export default function Home({ params }: { params: { locale: string } }) {
+export default function Home({ params }: { params: { locale: Lang } }) {
   const t = useTranslations("Booking");
-  console.log("params", params.locale);
   return (
     <>
       <Container>
