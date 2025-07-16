@@ -1,0 +1,39 @@
+.bookForm {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--s4);
+  padding: var(--s5);
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.submitButton {
+  justify-self: center;
+}
+
+.label {
+  align-self: flex-end;
+}
+
+.calendar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .bookForm {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .descriptionField {
+    grid-column: span 2;
+  }
+
+  .submitButton {
+    grid-column: span 2;
+  }
+
+  .calendar {
+    margin: unset;
+  }
+}

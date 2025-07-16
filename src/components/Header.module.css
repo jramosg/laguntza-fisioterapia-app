@@ -1,0 +1,31 @@
+.header {
+  width: 100%;
+  padding: 0 var(--s2);
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  transition: all 0.3s ease-in-out, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--theme-bg);
+  padding-top: var(--s3);
+}
+
+.headerLogo {
+  width: var(--s10);
+  display: flex;
+}
+
+:global(.header-nav__container--scrolling-down) {
+    height: var(--s8);
+    background-color: var(--theme-primary-container);
+}
+
+:global(.header-nav__container--scrolled) {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+    opacity: 0.9;
+    backdrop-filter: blur(10px);
+}

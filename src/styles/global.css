@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: var(--theme-bg);
+  position: relative;
+}
+
+pre {
+  padding: 1em;
+  border-radius: 0.5em;
+  overflow: auto;
+}
+
+pre .language-id {
+  display: none;
+}
+
+/* Base card style */
+.card {
+  box-shadow: var(--ring-offset-shadow), var(--ring-shadow), var(--shadow-md);
+  background-color: var(--theme-bg);
+  border-radius: var(--theme-shape-radius);
+}
+
+/* Elevated card (default) */
+.card--elevated {
+  box-shadow: var(--ring-offset-shadow), var(--ring-shadow), var(--shadow-md);
+}
+
+/* Outlined card */
+.card--outlined {
+  box-shadow: none;
+  border: 1px solid var(--theme-outline);
+  background-color: var(--theme-bg);
+}
+.card--outlined:hover,
+.card--outlined:focus-visible {
+  border-color: var(--theme-primary);
+  background-color: var(--theme-surface-1);
+}
+
+/* Flat card */
+.card--flat {
+  box-shadow: none;
+  background-color: var(--theme-surface-1);
+}
+.card--flat:hover,
+.card--flat:focus-visible {
+  background-color: var(--theme-surface-2);
+}
+
+.main-content {
+	padding-top: var(--header-height);
+}

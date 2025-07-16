@@ -1,0 +1,19 @@
+.inputGroup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--s4);
+}
+
+.inputGroup__label {
+  display: flex;
+  font-size: var(--font-size-sm);
+  align-items: center;
+  gap: var(--s2);
+  margin-bottom: var(--s);
+  font-weight: 500;
+  svg {
+    width: 1.25em;
+    height: 1.25em;
+  }
+}
